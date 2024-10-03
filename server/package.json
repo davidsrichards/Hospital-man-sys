@@ -6,11 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.mjs",
-<<<<<<< HEAD
-    "build": "npm install --prefix ./client && npm run build --prefix ./client && npm install"
-=======
      "build": "npm install --prefix ./client && npm run build --prefix ./client && npm install"
->>>>>>> 1fffb08dd3e02956f834f8ec68c54c8530291153
   },
   "keywords": [],
   "author": "",

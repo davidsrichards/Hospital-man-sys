@@ -123,7 +123,7 @@ function ManageDoctor() {
             </button>
             <button
               className="p-2 px-4 rounded-md bg-red-500 text-[#fff] relative left-4 hover:bg-red-700"
-              onClick={() => deleteOne()}
+              onClick={async() => await deleteOne()}
             >
               <MdDelete />
             </button>
@@ -170,7 +170,7 @@ function ManageDoctor() {
       </div>
 
       <button
-        onClick={() => save()}
+        onClick={async() => await save()}
         className="self-end bg-blue-700 text-[#fff] w-1/6 rounded-md h-8 hover:bg-blue-600 mt-4"
       >
         Save
